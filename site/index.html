@@ -7,7 +7,7 @@
   <meta name="description" content="ML consultant and data strategist helping companies turn AI potential into working systems. Based between St. Louis and Valencia.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300;1,9..144,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,60 +22,76 @@
     </div>
   </nav>
 
+  <!-- HERO -->
   <section id="hero">
-    <div class="hero-inner">
-      <h1>Most data problems are language problems.</h1>
+    <div class="hero-inner container">
+      <div class="hero-eyebrow">ML Consultant · Data Strategist · Valencia &amp; St. Louis</div>
+      <h1>Most data problems<br>are <em>language problems.</em></h1>
       <p class="hero-sub">I help companies figure out which one they actually have — and build the systems to fix it.</p>
-      <p class="hero-detail">ML consultant and data strategist. Based between St. Louis and Valencia. Working in English and Spanish.</p>
-      <a href="#contact" class="btn">Let's talk →</a>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container about-grid">
-      <div class="about-photo">
-        <!-- Drop your photo at site/images/mayela.jpg and uncomment the line below -->
-        <!-- <img src="images/mayela.jpg" alt="Mayela Zambrano"> -->
-        <div class="photo-placeholder"></div>
-      </div>
-      <div class="about-text">
-        <h2>About</h2>
-        <p class="about-lead">Most data problems are language problems.</p>
-        <p>I know this because I spent years studying language before I ever wrote a pipeline. My PhD is in Hispanic Linguistics — I was trained to notice how organizations use words, how context changes meaning, and how people talk past each other while believing they're communicating. It turns out that's exactly the diagnostic skill you need when a company's data infrastructure isn't working.</p>
-        <p>After my doctorate, I moved into data engineering and ML consulting. I've built cloud pipelines in Microsoft Fabric, implemented LLM and RAG systems for companies that couldn't yet hire in-house AI teams, and designed decision tools for leadership at firms in New York, St. Louis, and across Spain. My MA work overlapped with Natural Language Processing — so the shift from linguistics research to ML implementation was less of a pivot than it sounds.</p>
-        <p>What I bring that most technical consultants don't: I can walk into a room, listen to how a team talks about their data problem, and tell you in thirty minutes whether it's a technical problem, a governance problem, or a communication problem — and which one to fix first.</p>
-        <p class="about-footer">I work in English and Spanish, and split my time between St. Louis, Missouri and Valencia, Spain.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn">Let's talk →</a>
+        <span class="hero-lang">Working in English and Spanish</span>
       </div>
     </div>
   </section>
 
-  <section id="work" class="alt-bg">
+  <!-- TICKER -->
+  <div class="ticker-strip">
+    <div class="ticker-inner">
+      <span>Language · Data · Machine Learning · NLP · LLM · RAG · Strategy · EU AI Act · English · Spanish · Valencia · St. Louis · Data Governance · </span>
+      <span aria-hidden="true">Language · Data · Machine Learning · NLP · LLM · RAG · Strategy · EU AI Act · English · Spanish · Valencia · St. Louis · Data Governance · </span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="light">
     <div class="container">
-      <h2>How I work</h2>
-      <p class="section-intro">Most engagements start small and grow when they're useful. Here's the shape they usually take.</p>
+      <div class="section-label"><span>01</span>About</div>
+      <div class="about-grid">
+        <div class="about-photo">
+          <!-- Drop your photo at site/images/mayela.jpg and replace the placeholder div below -->
+          <!-- <img src="images/mayela.jpg" alt="Mayela Zambrano"> -->
+          <div class="photo-placeholder"></div>
+        </div>
+        <div class="about-text">
+          <p class="about-lead">Most data problems are language problems.</p>
+          <p>I know this because I spent years studying language before I ever wrote a pipeline. My PhD is in Hispanic Linguistics — I was trained to notice how organizations use words, how context changes meaning, and how people talk past each other while believing they're communicating. It turns out that's exactly the diagnostic skill you need when a company's data infrastructure isn't working.</p>
+          <p>After my doctorate, I moved into data engineering and ML consulting. I've built cloud pipelines in Microsoft Fabric, implemented LLM and RAG systems for companies that couldn't yet hire in-house AI teams, and designed decision tools for leadership at firms in New York, St. Louis, and across Spain.</p>
+          <p>What I bring that most technical consultants don't: I can walk into a room, listen to how a team talks about their data problem, and tell you in thirty minutes whether it's a technical problem, a governance problem, or a communication problem — and which one to fix first.</p>
+          <p class="about-footer">Working in English and Spanish · St. Louis, MO · Valencia, Spain</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW I WORK -->
+  <section id="work" class="dark">
+    <div class="container">
+      <div class="section-label light-label"><span>02</span>How I work</div>
+      <p class="section-sub-dark">Most engagements start small and grow when they're useful.</p>
       <div class="cards">
 
         <div class="card">
           <div class="card-label">Entry point</div>
           <h3>Data Infrastructure Review</h3>
-          <p>A fast, focused look at your current data setup — where things are breaking, where value is being left on the table, and what to fix first. Includes a technical review and a plain-language debrief your leadership team can act on.</p>
-          <p class="card-detail">Useful if you're AI-curious but not sure what you actually need, or you've inherited a data mess and want a second opinion before committing to a direction.</p>
+          <p>A fast, focused look at your current data setup — where things are breaking, where value is being left on the table, and what to fix first. Plain-language debrief your leadership can act on.</p>
+          <p class="card-detail">Good if you're AI-curious but not sure what you actually need.</p>
           <span class="card-meta">1 week · Flat fee</span>
         </div>
 
         <div class="card card-featured">
           <div class="card-label">Core engagement</div>
           <h3>AI Readiness Audit + Roadmap</h3>
-          <p>A 3-week engagement that goes deeper: stakeholder interviews, infrastructure review, and a concrete roadmap. Covers data governance, EU AI Act compliance, and where LLM or ML implementation is actually ready to deliver value vs. where it's still hype.</p>
-          <p class="card-detail">Useful if you're ready to move on AI but don't want to make expensive mistakes, or your teams need alignment before execution.</p>
+          <p>3 weeks: stakeholder interviews, infrastructure review, concrete roadmap. Covers data governance, EU AI Act compliance, and where LLM or ML implementation is actually ready to deliver value vs. where it's still hype.</p>
+          <p class="card-detail">Good if you're ready to move on AI but don't want to make expensive mistakes.</p>
           <span class="card-meta">3 weeks · Flat fee</span>
         </div>
 
         <div class="card">
           <div class="card-label">Ongoing</div>
           <h3>AI Transformation Retainer</h3>
-          <p>A monthly engagement for companies that need a senior technical voice embedded in their decisions — architecture choices, team guidance, vendor evaluation, keeping ML initiatives honest between sprints.</p>
-          <p class="card-detail">Think of it as a fractional CDO without the overhead of a full hire.</p>
+          <p>Monthly: architecture choices, team guidance, vendor evaluation, keeping ML initiatives honest. A fractional CDO without the overhead of a full hire.</p>
+          <p class="card-detail">Good if you're executing post-audit and need senior judgment in the room.</p>
           <span class="card-meta">Monthly · 1–2 clients at a time</span>
         </div>
 
@@ -83,48 +99,57 @@
     </div>
   </section>
 
-  <section id="proof">
+  <!-- PROOF -->
+  <section id="proof" class="light">
     <div class="container">
-      <h2>A few projects worth knowing about</h2>
+      <div class="section-label"><span>03</span>Proof</div>
       <div class="proof-grid">
 
         <div class="proof-item">
-          <h3>Executive Visibility — National Retailer</h3>
-          <p>A large American retailer needed regional managers to make staffing and inventory decisions without routing every question through the analytics team. The real problem wasn't the data — reporting was built for analysts, not operators. I rebuilt the decision layer: a dashboard correlating review data and sales performance across locations, readable in thirty seconds.</p>
+          <div class="proof-dash">—</div>
+          <h3>Executive Visibility<br>National Retailer</h3>
+          <p>Reporting was built for analysts, not operators. I rebuilt the decision layer: a dashboard correlating review data and sales performance across locations, readable in thirty seconds by the people who actually needed to act on it.</p>
           <span class="tags">Power BI · Data modeling · Stakeholder research</span>
         </div>
 
         <div class="proof-item">
-          <h3>Client Experience Gaps — Wealth Management Firm</h3>
-          <p>A wealth management firm had survey data about client satisfaction but no clear view of where advisors and clients were seeing things differently. I ran a user research phase first — because the mental model mattered as much as the visualization — then built a dashboard surfacing the gaps between what advisors believed clients felt and what the data actually showed.</p>
+          <div class="proof-dash">—</div>
+          <h3>Client Experience Gaps<br>Wealth Management Firm</h3>
+          <p>I ran a user research phase first — because the mental model mattered as much as the visualization — then surfaced the gaps between what advisors believed clients felt and what the data actually showed.</p>
           <span class="tags">Power BI · Survey analysis · Qualitative research</span>
         </div>
 
         <div class="proof-item">
-          <h3>App Adoption — Internal Tool Redesign</h3>
-          <p>A company's employees weren't using their mobile app. The assumption internally was a training problem. The reality was a language and layout problem: the interface used terms that didn't match how field workers thought about their jobs. I conducted user research, identified the friction, and redesigned the key interface. Adoption increased measurably.</p>
+          <div class="proof-dash">—</div>
+          <h3>App Adoption<br>Internal Tool Redesign</h3>
+          <p>The assumption was a training problem. The reality was a language problem: the interface used terms that didn't match how field workers thought about their jobs. I identified the friction and redesigned the key interface. Adoption increased measurably.</p>
           <span class="tags">UX research · Product thinking · Information architecture</span>
         </div>
 
       </div>
 
       <div class="testimonial">
-        <blockquote>"Excellent communicator and a top-notch professional — 100% would work with again."</blockquote>
-        <cite>— Bryan Orr, CEO &amp; Founder, Kalos Services, Inc.</cite>
+        <div class="quote-mark">"</div>
+        <blockquote>Excellent communicator and a top-notch professional — 100% would work with again.</blockquote>
+        <cite>Bryan Orr, CEO &amp; Founder, Kalos Services, Inc.</cite>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="alt-bg">
-    <div class="container contact-content">
-      <h2>Let's talk.</h2>
+  <!-- CONTACT -->
+  <section id="contact" class="dark">
+    <div class="container">
+      <div class="section-label light-label"><span>04</span>Contact</div>
+      <h2 class="contact-heading">Let's talk.</h2>
       <p class="contact-intro">Whether you're scoping a project, figuring out where to start, or just want a first conversation with no agenda — I'm easy to reach.</p>
       <p class="contact-sub">I work with companies in Spain and the US, typically 50–300 people, at the point where AI feels urgent but the infrastructure isn't ready.</p>
       <div class="contact-details">
         <a href="mailto:mayelazambrano9@gmail.com">mayelazambrano9@gmail.com</a>
-        <span>US: +1 (312) 523-1858</span>
-        <span>ESP: +34 666 359 547</span>
-        <span>St. Louis, MO · Valencia, Spain</span>
+        <div class="contact-meta">
+          <span>US: +1 (312) 523-1858</span>
+          <span>ESP: +34 666 359 547</span>
+          <span>St. Louis, MO · Valencia, Spain</span>
+        </div>
       </div>
     </div>
   </section>
