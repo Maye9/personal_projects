@@ -7,8 +7,8 @@
   --green-wash:   #EDF4EE;
   --text:         #111110;
   --text-muted:   #7A7872;
-  --pink:         #E8315A;
-  --pink-light:   #FCEDF1;
+  --pink:         #D4706A;
+  --pink-light:   #FAF0EE;
   --green:        #1B4A30;
   --green-mid:    #2E7A4A;
   --border:       #E5E2DB;
@@ -294,7 +294,7 @@ nav {
   border-color: var(--pink);
 }
 
-.card-featured::before { background: #c4204a; }
+.card-featured::before { background: #b85d58; }
 
 .card h3 { color: var(--text); }
 .card-featured h3 { color: #fff; }
